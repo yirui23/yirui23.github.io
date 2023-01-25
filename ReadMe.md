@@ -1,4 +1,4 @@
-Reference guide (Google Slides): [[https://docs.google.com/presentation/d/13uQN4jKMyOo6Zg8K-3493xCR6AXOomq3fEgT7iTzYmw/edit?usp=sharing](https://docs.google.com/presentation/d/1AyRQdlTJKw2xe2ctUmABSPQuj5Co46_X8sxYi3w5wYA/edit?usp=sharing)
+Reference guide (Google Slides): [https://docs.google.com/presentation/d/1AyRQdlTJKw2xe2ctUmABSPQuj5Co46_X8sxYi3w5wYA/edit?usp=sharing](https://docs.google.com/presentation/d/1AyRQdlTJKw2xe2ctUmABSPQuj5Co46_X8sxYi3w5wYA/edit?usp=sharing)
 
 # Your task
 
