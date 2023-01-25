@@ -1,17 +1,33 @@
-## Portfolio Website Template
+Reference guide (Google Slides): [https://docs.google.com/presentation/d/13uQN4jKMyOo6Zg8K-3493xCR6AXOomq3fEgT7iTzYmw/edit?usp=sharing](https://docs.google.com/presentation/d/13uQN4jKMyOo6Zg8K-3493xCR6AXOomq3fEgT7iTzYmw/edit#slide=id.p)
 
-This is a simple responsive portfolio website template that I made for Repl.it template jam. You can use it and make it yours by changing things and colors to your style and liking! I made it with a lot of hard work, love and of course with code :) I'm not a professional coder, but i tried my best to make it look cool and yet still keep it simple. While working with JS i got many errors, but thanks to [Kakashi](https://repl.it/@apoorvsingal) for fixing them. Also thanks to all people on discord who provided feedback and suggestions, especially Panda and Kub! :D
+# Your task
 
-> Mistakes are proof that we are trying!
+1. Create a portfolio page in Github Pages
+2. Paste your Github profile link in Lesson Schedule, under the Profile tab.
 
-I learned so much while making this template, if you use it, please let me know. I would love to see how amazing people can make it! I hope you'll like it!
+# Example portfolio pages
 
-## I have used:
-+ **HTML5** for markup
-+ Pure **CSS3** for styling 
-+ Bit of **Jquery** to make header animation effects work
-+ Bit of **JavaScript** to make a hamburger menu to work on mobile devices 
-+ **Font Awesome** for Icons 
-+ **Unsplash** for Images 
+- Dan Vine (based on Bootstrap Resume template)
+- [Portfolio Template](https://portfolio-template.surge.sh/)
+- [Dev Portfolio](https://ryanfitzgerald.github.io/devportfolio/)
+- [Bill Martin](http://billmartin.io/) (based on Freelancer theme)
 
-You can add more things to make it even cooler! The comments in the code will help you navigate through it. Have a nice day! :D 
+# Templates for portfolio pages
+
+- [Bootstrap Resume Template](https://github.com/danvine/bootstrap-resume-template)
+- [Portfolio Template](https://github.com/nisarhassan12/portfolio-template)
+- [Dev Portfolio](https://github.com/RyanFitzgerald/devportfolio)
+- [Freelancer theme](https://github.com/jeromelachaud/freelancer-theme)
+- [Developer Portfolio Landing Page Template](https://github.com/evanca/quick-portfolio)
+- Or find one you like on [Bootstrap Portfolio & Resume Themes](https://startbootstrap.com/themes/portfolio-resume/)!
+
+# Inspiration
+
+- [Alyssa X](https://alyssax.com/)
+
+# Introduction to CSS
+
+## Reading
+
+- [CSS syntax](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS#CSS_syntax)
+- [Getting started with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
