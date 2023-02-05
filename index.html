@@ -1,265 +1,298 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
+<!-- https://replit.com/@mrjsng/HTML-CSS-Intro -->
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-
-  <!-- Put your site title here -->
-  <title>
-      Yi Rui's Portfolio
-  </title>
-
-  <meta name="description" content="Add small description of yourself.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
-  <link rel="stylesheet" href="index.css" />
+    <meta charset="utf-8">
+    <title>Yi Rui's Portfolio</title>
+    
+    <!-- External CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
+<header>
+    <ul id="menu" class="shadow" style="">
+        <li class="bar">
+            <a href="#about" class="navlink"><span class="navlink-button">About</span></a>
+        </li>
+        <li class="bar">
+            <a href="#experience" class="navlink"><span class="navlink-button">Experience</span></a>
+        </li>
+        <li class="bar">
+            <a href="#education" class="navlink"><span class="navlink-button">Education</span></a>
+        </li>
+        <li class="bar">
+            <a href="#projects" class="navlink"><span class="navlink-button">Projects</span></a>
+        </li>
+        <li class="bar">
+            <a href="#skills" class="navlink"><span class="navlink-button">Skills</span></a>
+        </li>
+        <li class="bar">
+            <a href="#contact" class="navlink"><span class="navlink-button">Contact</span></a>
+        </li>
+    </ul>
+</header>
+<!-- End header -->
 
-  <!-- ***** Header ***** -->
+<div id="lead">
+    
+        <img id="photo" src="https://blenderartists.org/uploads/default/original/4X/5/0/e/50e12ff723b2963ee7dc149fd93cea0d276fddc4.jpeg" alt="A picture of Mike Ehrmantraut smiling" height="300px" />
+    
+        <h1 style="font-size: 75px; margin: 0; padding-top: 50px">Tan Yi Rui</h1> 
+    
+        <h2>A 17 y/o studying in Singapore.</h2>
+    
+        <a href="#" class="btn-rounded-white">Download Resume</a>
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
-          <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
+    <div id="lead-overlay"></div>
+
+    <div id="lead-down">
+        <span>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </span>
+    <br>
+    <br>
     </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Tan Yi Rui</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A 17y/o studying in Singapore.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
-    </div>
-  </header>
+    <!-- End #lead-down -->
+</div>
+<!-- End #lead -->
 
-  <main role="main">
-
-    <!-- ***** Experience ***** -->
-
-    <section class="experience" id="experience">
-      <div class="row">
-        <h2>Experience</h2>
-        <div class="experience__boxes">
-
-        <div class="skills">
-            <div class="skills__text">
-            <h3><em>Technical Skills</em></h3>
-            <ul>
-                <li>Python</li>
-                <li>Web development using HTML and CSS</li>
-                <li>C++ (learning)</li>
-            </ul>
-            <p></p> <!-- for formatting purposes -->
-            <h3><em>Soft Skills</em></h3>                
-            <ul>
-                <li>Facilitation and group leadership</li>
-                <li>Communication and interpersonal skills</li>
-                <li>Teamwork and collaboration</li>
-                <li>Sales and customer service</li>
-            </ul>
-            <p></p> <!-- for formatting purposes -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="heading">
+                <h2>About Me</h2>
             </div>
+            
+            <div class="section-info">
+
+                <figure id="about-me_img" style="float: right">
+                    <img src="https://i.imgur.com/O8o5cYL.png" height="150">
+                    
+                    <figcaption style="font-size: 15px; text-align: center">(Me as a young boy in secondary school)</figcaption>
+                </figure>
+                
+                <p style="margin: 0px; padding-bottom: 20px;">
+                    I am a 17 year old student currently studying in Nanyang Junior College. I have had an avid interest in technology and gaming since I was 7, and grew up using all sorts of technology. My current goal is to pursue a Computer Science degree in one of the local universities in Singapore, and hopefully work as a Software Engineer or other IT-related careers in the near future! 
+                    <br> <br>
+                    I have a natural curiosity and interest in the field, and it has only continued to grow over time. In fact, I try my best to stay up to date with the latest advancements and enjoy experimenting with new gadgets and software. My passion for technology goes beyond just using devices - I also have a strong desire to learn about how they work and how they can be utilized to improve daily life! My love for technology is reflected in the way I communicate about it, and I will certainly continue to follow my passion for many years to come!
+                </p>
+            </div>
+            <!-- End of .section-info -->
         </div>
+    </div>
+</div>
+<!-- End #about -->
 
+<div id="experience" class="background-alt">
+    <div class="heading">
+        <h2>Experience</h2>
+    </div>
 
-          <!-- Each div with the experience__box class is a project. -->
-          <div class="experience__box">
-            <div class="experience__text">
-                <h3>Office Intern</h3>
+    <div class="section-info"
+        <div id="experience-timeline">
+        
+            <div data-date="September 2015 – September 2016">
+
+                <img style="float: right" height="263.5" src="https://i.imgur.com/AQTgBfy.png" title="View Organisation Website" alt="Halogen Foundation">
+                
+                <h3 class="job-org">Halogen Foundation</h3>
+                <h4 class="job-title"> Office Intern</h4>
+                
                 <p>
-                    Interned two weeks at Halogen Foundation where I:
-                </p
+                    Interned for two weeks where I:
+        
                   <ul class="experience__list">
                     <li>Created proposals and write-ups</li>
                     <li>Utilised AI & programming to automate tasks</li>
                     <li>Video Content Creation</li>
                     <li>Organised documents</li>
                   </ul>
-              <div class="experience__links">
-                <a href="https://halogen.sg/" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <br>
-                <a href="https://halogen.sg/">
-                  <img src="https://i.imgur.com/AQTgBfy.png" class="experience__code" title="View Organisation Website" alt="Halogen Foundation">
-                </a>
-              </div>
+                </p>
+                
             </div>
-          </div>
-        <p>               </p>
-            
-        <div class="experience__box">
-            <div class="experience__text">
-              <h3>Retail Assistant</h3>
-              <p>
-                  Jan 2022 - Feb 2022
-                <ul class="experience_list">
-                    <li>Advertised, interacted and sold retail products to customers at NTUC Fairprice.</ul>
-                </ul>
-              </p>
+        <br>
+            <div data-date="September 2015 – September 2016">
+                <img style="float: right" height="220.5" src="https://i.imgur.com/GLgYFZr.png" title="View Organisation Website" alt="NTUC Fairprice">
+                <h3 class="job-org">NTUC Fairprice</h3>
+                <h4 class="job-title">Retail Assistant</h4>
+                <p>
+                    <ul class="experience__list">
+                     <li>Advertised, interacted and sold retail products to customers at NTUC Fairprice.</li>
+                     <li>Transported and replenished stock efficiently</li>
+                     <li>Assisted with visual merchandising to promote products and drive sales</li>
+                     <li>Maintained a clean and organized store environment to enhance shopping experience</li>
+                   </ul> 
+            </p>
+                
             </div>
-        </div>
+    </div>
+    <!-- End of section-info -->
+    
+    </div>
+</div>
+<!-- End #experience -->
 
-            
-<!--           <div class="experience__box">
-            <div class="experience__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="experience__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="experience__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="experience__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="experience__image-box">
-              <img src="./images/project-3.png" class="experience__image" alt="Project 3" />
-            </div>
-          </div>
-        </div>
-      </div> -->
-    </section>
-
-    <!-- ***** Education ***** -->
-
-    <section class="education" id="education">
-      <div class="row">
+<div id="education">
+    <div class="heading">
         <h2>Education</h2>
-        <div class="education__logos">
-          <!-- Add logos of the Education or companies you'have experienceed with. -->
-        <figure>
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Nanyang_Junior_College_Logo.svg/1200px-Nanyang_Junior_College_Logo.svg.png" class="education__logo" alt="Nanyang Junior College" height="200" width="200"/>
-            <figcaption>Nanyang Junior College (2022-2023)</figcaption>
-        </figure>
-        <ul>
-            <li>Member of Boy's Floorball Team</li>
-        </ul>
-        <p></p> <!-- formatting purposes -->
-            
-        <figure>
-            <img src="https://chungchenghighyishun.moe.edu.sg/qql/slot/u496/2019/Our%20CCHY/School%20Direction/School%20Purpose_Vision_Mission%20&%20Values/School%20Crest%20and%20Motto/CCHS(YISHUN)%20logo.jpg" class="education__logo" alt="Chung Cheng High School (Yishun)" height="180" width="180"/>
-            <figcaption>Chung Cheng High School (Yishun) (2018-2021)</figcaption>
-        </figure>
-        <ul>
-            <li>Served as CCA Chairperson (NCC Air)</li>
-            <li>Served as Student Councillor</li>
-            <li>Awarded third in Global Affairs Debate Competition</li>
-        </ul>
-        <p></p> <!-- formatting purposes -->
-            
-        <figure> <img src="https://i.imgur.com/qW4lJ7P.png" class="education__logo" alt="Qihua Primary School" />
-            <figcaption>Qihua Primary School (2012-2017)</figcaption>
-        </figure>
-        <ul>
-            <li>Served as Deputy Head Prefect</li>
-        </ul>
-        </div>
-      </div>
-    </section>
-                
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              I am a 17 year old student currently studying in Nanyang Junior College. I have had an avid interest in technology and gaming since I was 7, and grew up using all sorts of technology. My current goal is to pursue a Computer Science degree in one of the local universities in Singapore, and hopefully work as a Software Engineer or other IT-related careers in the near future!
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="https://blenderartists.org/uploads/default/original/4X/5/0/e/50e12ff723b2963ee7dc149fd93cea0d276fddc4.jpeg" alt="A picture of Mike Ehrmantraut smiling" width="1300" height="450" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-                
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Looking to contact me, give me any advice or simply just say Hi 👋? Feel free to let me know and I will do my best to respond. The quickest way to reach out to me is via my email.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:tan.yi.rui_2223@nyjc.edu.sg" class="btn">tan.yi.rui_2223@nyjc.edu.sg</a>
-      </div>
     </div>
-  </section>
 
-  <!-- ***** Footer ***** -->
+    <div class="section-info">
+        <div class="education-block">
+            <img style="float: right" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Nanyang_Junior_College_Logo.svg/1200px-Nanyang_Junior_College_Logo.svg.png" alt="Nanyang Junior College" height="214">
+            <h3 class="school-name">Nanyang Junior College</h3>
+            <span class="education-date">(2022 - 2023)</span>
+            <h4>"A" Level Certification</h4>
+            
+            <ul>
+                <li>Served as Class Mathematics Representative</li>
+                <li>Member of Men's Floorball Team</li>
+            </ul>
+            
+        </div>
+        <!-- End .education-block -->
+    
+        <div class="education-block">
+            <img style="float: right" src="https://i.imgur.com/OBiw0xx.png" alt="Chung Cheng High School (Yishun)" height="238"/>
+            <h3 class="school-name">Chung Cheng High School (Yishun)</h3>
+            <span class="education-date">(2018 - 2022)</span>
+            <h4>"O" Level Certification</h4>
+            <ul>
+                <li>Served as Student Councillor</li>
+                <li>Served as CCA Chairperson (NCC Air)</li>
+                <li>Awarded third in Global Affairs Debate Competition</li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
 
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-            <p>Twitter
-          <a href="https://twitter.com/YiRui11466648" title="Link to Twitter Profile">
-            <img src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png" width="20" height="20" class="footer__social-image" alt="Twitter">
-          </a>
-            </p>
-        </li>
-        <li class="footer__social-link-item">
-            <p>GitHub
-          <a href="https://github.com/yirui23" title="Link to Github Profile">
-            <img src="https://i.imgur.com/jwDpzee.png" width="20" height="20" class="footer__social-image" alt="Github">
-          </a>
-            </p>
-        </li>
-        <li class="footer__social-link-item">
-            <p>LinkedIn
-          <a href=https://www.linkedin.com/in/yi-rui-tan-842856252/">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="20" width="20" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-            </p>
-        </li>
-      </ul>
+        <div style="height: 200px" class="education-block">
+            <img style="float: right" src="https://i.imgur.com/qW4lJ7P.png" alt="Qihua Primary School" height="200"/>
+            <h3 class="school-name">Qihua Primary School</h3>
+            <span class="education-date">(2012 - 2017)</span>
+            <ul>
+                <li>Served as School Deputy Head Prefect</li>
+                <li>Member of School Floorball Team</li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+
     </div>
-  </footer>
+    <!-- End of section-info -->
+</div>
+<!-- End #education -->
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="https://cdn-icons-png.flaticon.com/512/4196/4196777.png" alt="Back to Top" class="back-to-top__image" height="25" width="25"/>
-  </a>
-  <script src="./index.js"></script>
+<div id="projects" class="background-alt">
+    <div class="heading">
+        <h2>Projects</h2>
+    </div>
+    
+    <div class="section-info">
+        <div class="row">
+            <div class="project shadow-large">
+        
+                <div class="project-info">
+                    <img style="float: right; border: 1px solid white; border-radius: 10px" src="https://i.imgur.com/krLrytF.png" height="130"/>
+                    <h3 class="project-name">Website Portfolio</h3>
+                    <p>
+                        Independently developed a simple website using HTML/CSS to show my personal portfolio.
+                    </p>
+                    <a href="https://yirui23.github.io">View Project</a>
+                </div>
+                <!-- End .project-info -->
+                
+            </div>
+            <!-- End .project -->
+    </div>
+    <!-- End of section-info -->
+</div>
+<!-- End #projects -->
+
+<div id="skills">
+    <div class="heading">
+        <h2>Skills</h2>
+    </div>
+    
+    <div class="section-info">
+        <h3 class="skills-type">Technical Skills</h3>
+            <ul>
+                <li>Python</li>
+                <li>Web development using HTML and CSS</li>
+                <li>C++ (learning)</li>
+                <li>Scratch</li>
+            </ul>
+    
+        <h3 class="skills-type">Soft Skills</h3>                
+            <ul>
+                <li>Facilitation and group leadership</li>
+                <li>Communication and interpersonal skills</li>
+                <li>Teamwork and collaboration</li>
+                <li>Sales and customer service</li>
+            </ul>
+    </div>
+    <!-- End of section-info -->
+</div>
+<!-- End #skills -->
+
+<div id="contact">
+    <div class="heading">
+        <h2>Get in Touch</h2>
+    </div>
+    
+    <div class="section-info">
+        <div id="contact-form">
+            <form style="height: 56px;" method="POST" action="https://formspree.io/tan.yi.rui_2223@nyjc.edu.sg">
+
+                <!-- is this for developer use(?) -->
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                
+                <input style="color: black; float: left; height: 50px;" type="email" name="_replyto" placeholder="Your email" required>
+                <textarea style="color: black; float: left; height: 50px" name="message" placeholder="Your message" required></textarea>
+                <button style="margin-left: 5px; color: black; height: 56px" type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End of section-info -->
+</div>
+<!-- End #contact -->
+
+<footer>
+    <div class="section-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2023 TAN YI RUI
+                    </p>
+                </div>
+                
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/yirui23" target="_blank"><i class="fa fa-github" aria-hidden="true">GitHub</i></a>
+                        </li>
+            
+                        <li>
+                            <a href="https://www.linkedin.com/in/yi-rui-tan-842856252/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true">Linked-In</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of section-info -->
+</footer>
+<!-- End footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
 </body>
 
 </html>

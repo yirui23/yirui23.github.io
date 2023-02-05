@@ -1,28 +1,97 @@
-h1 {
-    font-size: 72px;  
+html {
+    background-color: #1B2E3C;
+    scroll-behavior: smooth; 
+    /* for smooth scrolling effect when jumping to sections, not sure
+    which particular element to put so i put for whole document */
 }
 
-h2 {
-    color: #00ff00;
+/* targets all text and makes it white  */
+* {
+    color: #F3E3E2;
+    font-family: serif;
 }
 
-h4.job-title {
+header, .heading, footer {
+    background-color: #0C0C1E;
+    padding: 1px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;    
 }
 
-h2#menu {
-    font-weight: bold;
-    font-size: 14px;
-    color: purple;
+header, footer {
+    margin-bottom: -10px;
 }
 
-a {
-    color: purple;
+.heading {
+    font-size: 15px; 
+    margin: 10px"
 }
 
-h2#job {
-    color: blue;
+.bar {
+    display: inline-block; /* make buttons align horizontally */
 }
 
-/* .navlink {
-    color: red;
-} */
+#menu {
+    text-align: center; /* align header buttons to center */
+}
+
+.navlink-button {
+/*     font-weight: bold; */
+    padding: 5px;
+    border-radius: 10px; /* for rounded button corners */
+    transition: background-color 0.5s;
+    font-size: 25px;
+}
+
+.navlink-button:hover { /* effects when hovering over button */
+    background-color: white;
+    color: black;
+}
+
+#lead {
+    height: 300px;
+    width: 50vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#photo {
+    float: right;
+}
+
+.heading {
+    padding-left: 50px;
+}
+
+.section-info {
+    font-size: 20px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#about-me_img {
+    padding-left: 25px;
+    margin: 0px;
+    text-align: center;
+}
+
+.job-org, .school-name, .project-name, .skills-type {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.job-title, .education-date {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.education-block {
+    margin-bottom: 40px;
+}
+
+textarea {
+    resize: horizontal;
+}
